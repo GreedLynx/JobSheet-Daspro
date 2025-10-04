@@ -1,0 +1,11 @@
+{
+  "java.debug.settings.onBuildFailureProceed": true,
+  "java.referencesCodeLens.enabled": false,  
+  "java.implementationsCodeLens.enabled": false,
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/target/**",
+    "**/.git/**"
+  ]
+
+}

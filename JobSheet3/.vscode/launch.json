@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Bank20",
+            "request": "launch",
+            "mainClass": "Bank20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "ContohOperator20",
+            "request": "launch",
+            "mainClass": "ContohOperator20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "ContohVariabel20",
+            "request": "launch",
+            "mainClass": "ContohVariabel20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "Contohtipedata20",
+            "request": "launch",
+            "mainClass": "Contohtipedata20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "MyFirstJava16",
+            "request": "launch",
+            "mainClass": "MyFirstJava16",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "StudiKasus20",
+            "request": "launch",
+            "mainClass": "StudiKasus20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "StudiKasusModifikasi20",
+            "request": "launch",
+            "mainClass": "StudiKasusModifikasi20",
+            "projectName": "Belajar_Coding_45730430"
+        },
+        {
+            "type": "java",
+            "name": "segitiga20",
+            "request": "launch",
+            "mainClass": "segitiga20",
+            "projectName": "Belajar_Coding_45730430"
+        }
+    ]
+}

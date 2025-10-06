@@ -1,32 +1,14 @@
 # Penjelasan JobSheet 1
 
-Simple overview of use/purpose.
+Program dasar deklarasi variabel dan tipe data.
 
 ## Deskripsi
-
-An in-depth paragraph about your project and overview of use.
+ 
+Program ini berisi program dasar dari bahasa java, yakni deklarasi variabel, tipe data san penggunaan operator aritmatika.
 
 ## Getting Started
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-![A beautiful sunset over the ocean](images/sunset.jpg "Golden Hour Sunset")
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+open VsCode
 
 ## Help
 

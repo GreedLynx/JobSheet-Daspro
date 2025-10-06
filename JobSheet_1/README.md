@@ -26,7 +26,7 @@ ex. [@DomPizzie](https://twitter.com/dompizzie)
 
 ## Version History
 
-* 0.2
+* 0.2 kaka
     * Various bug fixes and optimizations
     * See [commit change]() or See [release history]()
 * 0.1

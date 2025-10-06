@@ -1,6 +1,6 @@
 # jawaban untuk pertanyaan Jobsheet 5
 
-## Pertanyaan dan jawaban
+## Pertanyaan dan jawaban Percobaan 1
 
 - 1. Mengapa pengecekan pada struktur IF tersebut tidak melibatkan kondisi dengan operator relasional?
 
@@ -23,3 +23,5 @@ if(uktLunas){ //Deklarasi pemenuhan kondisi
 ```
 
 - 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 1”
+
+## Pertanyaan dan jawaban Percobaan 2

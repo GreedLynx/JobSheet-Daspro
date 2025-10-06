@@ -73,3 +73,15 @@ try(Scanner input = new Scanner(System.in)){
 ```
 
 - 4. Commit dan push hasil modifikasi Anda ke Github dengan pesan “Modifikasi Percobaan 2”
+
+## Pertanyaan dan jawaban Percobaan 3
+
+- 1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?
+  -
+- 2. Jelaskan maksud dari potongan kode berikut!
+
+```java
+if (bimbinganP1 >= 8 && bimbinganP2 >= 4)
+```
+
+- 3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!

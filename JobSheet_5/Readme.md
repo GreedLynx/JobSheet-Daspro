@@ -77,11 +77,16 @@ try(Scanner input = new Scanner(System.in)){
 ## Pertanyaan dan jawaban Percobaan 3
 
 - 1. Apa yang terjadi jika mahasiswa menjawab "No" pada pertanyaan bebas kompen? Mengapa demikian?
-  -
+  - tetap mengisi jumlah bimbingan yang sudah dilakukan, tapi tidak memenuhi kondisi yang di if sehingga akan muncul teks "Gagal! Mahasiswa masih memiliki tanggungan", ini menunjukkan bahwa mahasiswanya masih ada tanggungan dalam konteks jam kompen.
 - 2. Jelaskan maksud dari potongan kode berikut!
 
 ```java
 if (bimbinganP1 >= 8 && bimbinganP2 >= 4)
 ```
 
+    * Deklarasi kondisi pertama, untuk jumlah bimbinganP1 lebih besar atau sama dengan 8, lalu untuk bimbingan lebih besar atau sama dengan 4, kita harus memenuhi keduanya agar program dijalankan.
+
 - 3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
+  - Tahap 1: Pemeriksaan Syarat Utama (Bebas Kompen) Program pertama-tama menguji apakah mahasiswa telah bebas dari kewajiban kompen (mengambil input bebasKompen).
+  - Tahap 2: Pemeriksaan Detail Log Bimbingan (Hanya jika Bebas Kompen = "ya") Jika Tahap 1 lulus, program mulai memeriksa kombinasi jumlah log bimbingan P1 (minimal 8) dan P2 (minimal 4) secara berurutan.
+  - Tahap 3: Program memastikan setiap alur menetapkan nilai ke variabel pesan, yang kemudian akan dicetak di akhir program.

@@ -84,7 +84,7 @@ try(Scanner input = new Scanner(System.in)){
 if (bimbinganP1 >= 8 && bimbinganP2 >= 4)
 ```
 
-    * Deklarasi kondisi pertama, untuk jumlah bimbinganP1 lebih besar atau sama dengan 8, lalu untuk bimbingan lebih besar atau sama dengan 4, kita harus memenuhi keduanya agar program dijalankan.
+  - Deklarasi kondisi pertama, untuk jumlah bimbinganP1 lebih besar atau sama dengan 8, lalu untuk bimbingan lebih besar atau sama dengan 4, kita harus memenuhi keduanya agar program dijalankan.
 
 - 3. Bagaimana alur pemeriksaan syarat mahasiswa dari awal sampai akhir? Jelaskan secara runtut untuk semua kondisi!
   - Tahap 1: Pemeriksaan Syarat Utama (Bebas Kompen) Program pertama-tama menguji apakah mahasiswa telah bebas dari kewajiban kompen (mengambil input bebasKompen).

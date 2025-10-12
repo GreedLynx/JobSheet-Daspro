@@ -22,7 +22,7 @@
     Else then output “Anda tidak bisa masuk”
 
   - Flowchart:
-    ![Flowchart](images/Screenshot_2025-10-07_150655.png)
+    ![Flowchart](images/Screenshot 2025-10-07 150655.png)
 
 # Jobsheet 5
 

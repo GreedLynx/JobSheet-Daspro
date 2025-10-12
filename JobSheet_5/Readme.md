@@ -22,7 +22,42 @@
     Else then output “Anda tidak bisa masuk”
 
   - Flowchart:
+
     ![Flowchart Akses Perpustakaan][images/Flowchart_Latihan1.png]
+
+* 2. Di kampus tersedia layanan WiFi gratis yang hanya bisa diakses oleh civitas akademika. Sistem hotspot kampus akan melakukan pengecekan sebagai berikut:
+     • Jika jenis pengguna adalah dosen, maka tampilkan “Akses WiFi diberikan (dosen)”.
+     • Jika jenis pengguna adalah mahasiswa, maka sistem akan memeriksa jumlah SKS yang diambil:
+     o Jika SKS ≥ 12, maka tampilkan “Akses WiFi diberikan (mahasiswa aktif)”.
+     o Jika SKS < 12, maka tampilkan “Akses ditolak, SKS kurang dari 12”.
+     • Jika bukan mahasiswa maupun dosen, maka tampilkan “Akses ditolak”.
+     Buatlah flowchart dan pseudocode untuk menyelesaikan masalah tersebut!
+
+* Pseudocode:
+
+- **Program**
+  Akses wifi
+
+- **Deklarasi**
+  jenisPengguna : String
+  sks : sks
+
+- **Algoritma**
+  Input jenisPengguna
+
+If (jenisPengguna == dosen) then output “Akses wifi diberikan (dosen)”
+
+Else if (jenisPengguna == mahasiswa) then
+Output “Masukan jumlah sks : ”
+input sks
+
+if (sks >= 12) then output “akses wifi diberikan(mahasiswa aktif)”
+else then output “Akses ditolak, sks kurang dari 12”
+else then output “Akses ditolak!”
+
+- Flowchart:
+
+  ![Flowchart Akses Perpustakaan][images/Flowchart_Latihan2.png]
 
 # Jobsheet 5
 

@@ -57,7 +57,7 @@ else then output “Akses ditolak!”
 
 - Flowchart:
 
-  ![Flowchart Akses Perpustakaan][images/Flowchart_Latihan2.png]
+![Flowchart Akses Perpustakaan][images/Flowchart_Latihan2.png]
 
 # Jobsheet 5
 

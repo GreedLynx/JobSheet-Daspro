@@ -22,7 +22,7 @@
     Else then output “Anda tidak bisa masuk”
 
   - Flowchart:
-    ![Flowchart Akses Perpustakaan](images/Flowchart_Latihan1.png)
+    ![Flowchart Akses Perpustakaan][images/Flowchart_Latihan1.png]
 
 # Jobsheet 5
 
@@ -116,3 +116,5 @@ if (bimbinganP1 >= 8 && bimbinganP2 >= 4)
   - Tahap 1: Pemeriksaan Syarat Utama (Bebas Kompen) Program pertama-tama menguji apakah mahasiswa telah bebas dari kewajiban kompen (mengambil input bebasKompen).
   - Tahap 2: Pemeriksaan Detail Log Bimbingan (Hanya jika Bebas Kompen = "ya") Jika Tahap 1 lulus, program mulai memeriksa kombinasi jumlah log bimbingan P1 (minimal 8) dan P2 (minimal 4) secara berurutan.
   - Tahap 3: Program memastikan setiap alur menetapkan nilai ke variabel pesan, yang kemudian akan dicetak di akhir program.
+
+[images/Flowchart_Latihan1.png]: images/Flowchart_Latihan2.png

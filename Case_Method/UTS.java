@@ -1,11 +1,17 @@
 import java.util.Scanner;
 
-public class caseMethod {
+public class UTS {
     public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)){
             String nama, nilaiHurufAlgo, nilaiHurufStruktur, kualifikasi;
             double nilaiAkhirAlgo, nilaiSetara, nilaiAkhirStruktur;
-            int NIM, nilaiUtsAlgo, nilaiUasAlgo, nilaiTugasAlgo, nilaiUtsStruktur, nilaiUasStruktur, nilaiTugasStruktur;
+            int NIM, nilaiUtsAlgo, nilaiUasAlgo, nilaiTugasAlgo, nilaiUtsStruktur, nilaiUasStruktur, nilaiTugasStruktur, jumlahKehadiran, nilaiEtika;
+
+                //jumlah kehadiran
+                //nilai etika
+                //nilai akhir/rata rata mk
+                //dinyatakan lulus jika nilai rata rata mk >= 60 && nilai kehadiran >= 75 && nilai etika >= 70 maka dinyatakan lulus
+                //tidak lulus jika kehadiran < 75 || etika < 70
 
             //input data mahasiswa
             System.out.println("===== INPUT DATA MAHASISWA =====");
@@ -17,25 +23,35 @@ public class caseMethod {
 
             //input data nilai Algoritma dan pemrograman
             System.out.println("--- Mata Kuliah 1 : Algoritma dan pemrograman ---");
-            System.out.print("Masukan nilai UTS algoritma dan pemrograman Anda: ");
+            System.out.print("Masukan nilai UTS Anda: ");
             nilaiUtsAlgo = input.nextInt();
 
-            System.out.print("Masukan nilai UAS algoritma dan pemrograman Anda: ");
+            System.out.print("Masukan nilai UAS Anda: ");
             nilaiUasAlgo = input.nextInt();
 
-            System.out.print("Masukan nilai Tugas algoritma dan pemrograman Anda: ");
+            System.out.print("Masukan nilai Tugas Anda: ");
             nilaiTugasAlgo = input.nextInt();
 
             //input data nilai Struktur data
             System.out.println("--- Mata Kuliah 2 : Struktur data ---");
-            System.out.print("Masukan nilai UTS Struktur data Anda: ");
+            System.out.print("Masukan nilai UTS Anda: ");
             nilaiUtsStruktur = input.nextInt();
 
-            System.out.print("Masukan nilai UAS Struktur data Anda: ");
+            System.out.print("Masukan nilai UAS Anda: ");
             nilaiUasStruktur = input.nextInt();
 
-            System.out.print("Masukan nilai Tugas Struktur data Anda: ");
+            System.out.print("Masukan nilai Tugas Anda: ");
             nilaiTugasStruktur = input.nextInt();
+
+            //INPUT NILAI kehadiran
+            System.out.println("--- Jumlah Kehadiran ---");
+            System.out.print("Masukan nilai kehadiran Anda selama kuliah: ");
+            jumlahKehadiran = input.nextInt();
+
+            //input nilai etika 
+            System.out.println("--- Nilai Etika ---");
+            System.out.print("Masukan nilai etika Anda : ");
+            nilaiEtika = input.nextInt();
 
             //menghitung nilai akhir mata kuliah Algoritma 
             nilaiAkhirAlgo = (nilaiUtsAlgo*0.3) + (nilaiUasAlgo*0.4) + (nilaiTugasAlgo*0.3);
@@ -107,31 +123,38 @@ public class caseMethod {
 
             String statusAlgo = (nilaiAkhirAlgo >= 60) ? "LULUS" : "TIDAK LULUS";
             String statusStruktur = (nilaiAkhirStruktur >= 60) ? "LULUS" : "TIDAK LULUS";
+
             
-            // Tentukan Status Semester (Rata-rata >= 70)
-            String statusSemester = (rataRataNilaiAkhir >= 70) 
-                ? "LULUS" 
-                : "TIDAK LULUS (Rata-rata < 70)";
+            
+            // Tentukan Status Semester (Rata-rata >= 60)
+            String statusSemester;
+            if(rataRataNilaiAkhir >= 60 && jumlahKehadiran >= 75 && nilaiEtika >= 70) {
+                statusSemester = "Lulus";
+            }else {
+                statusSemester = "Tidak Lulus";
+            }
+
+                
 
             System.out.println("\n\n============ HASIL PENILAIAN AKADEMIK ============");
             System.out.println("Nama : " + nama);
             System.out.println("NIM  : " + NIM);
-            System.out.println("--------------------------------------------------");
+            System.out.println("-----------------------------------------------------");
             
             // Header Tabel
             System.out.printf("%-20s %-5s %-5s %-5s %-10s %-10s %s\n", 
             "Mata Kuliah", "UTS", "UAS", "Tugas", "Nilai Akhir", "Nilai Huruf", "Status");
-            System.out.println("--------------------------------------------------");
+            System.out.println("-----------------------------------------------------");
             
             // Data Matkul 1: Algoritma
-            System.out.printf("%-20s %-5d %-5d %-5d %-10.2f %-10s %s\n", 
+            System.out.printf("%-20s %-5d %-5d %-5d %-10.2f %-13s %s\n", 
             "Algoritma Pemrograman", nilaiUtsAlgo, nilaiUasAlgo, nilaiTugasAlgo, nilaiAkhirAlgo, nilaiHurufAlgo, statusAlgo);
 
             // Data Matkul 2: Struktur Data
-            System.out.printf("%-21s %-5d %-5d %-5d %-10.2f %-10s %s\n", 
+            System.out.printf("%-21s %-5d %-5d %-5d %-10.2f %-13s %s\n", 
             "Struktur Data", nilaiUtsStruktur, nilaiUasStruktur, nilaiTugasStruktur, nilaiAkhirStruktur, nilaiHurufStruktur, statusStruktur);
 
-            System.out.println("--------------------------------------------------");
+            System.out.println("-----------------------------------------------------");
 
             // Hasil Akhir Semester
             System.out.printf("Rata-rata Nilai Akhir: %.2f\n", rataRataNilaiAkhir);

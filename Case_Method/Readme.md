@@ -36,8 +36,6 @@ java caseMethod
 
 3. Ikuti petunjuk di konsol untuk memasukkan data nilai (NIM, UTS, UAS, Tugas) secara berurutan.
 
-.
-
 ## 🔎 Analisis dan Logika Nilai
 
 Program menggunakan pembobotan nilai sebagai berikut: UTS (30%) + UAS (40%) + Tugas (30%).
@@ -73,3 +71,4 @@ Kontributor
 
 Lisensi
 This project is licensed under the - License.
+

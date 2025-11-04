@@ -1,3 +1,5 @@
+package JobSheet_9;
+
 import java.util.Scanner;   
 
 public class pesananKafe {

@@ -1,8 +1,10 @@
-import java.util.Scanner;   
+//package JobSheet_9;
+
+import java.util.Scanner;
 
 public class arrayRataNilai20 {
     public static void main(String[] args) {
-        try(Scanner input = new Scanner(System.in)) {
+        try (Scanner input = new Scanner(System.in)) {
             int[] nilaiMhs = new int[10];
             double totalNilai = 0, rataRata;
 

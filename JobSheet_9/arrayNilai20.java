@@ -1,3 +1,5 @@
+package JobSheet_9;
+
 import java.util.Scanner;
 
 public class arrayNilai20 {
@@ -10,7 +12,12 @@ public class arrayNilai20 {
             }
 
             for (int i = 0; i < nilaiAkhir.length; i++) {
-                System.out.println("Nilai akhir mahasiswa ke-" + (i + 1) + " adalah: " + nilaiAkhir[i]);
+                if (nilaiAkhir[i] > 70) {
+                    System.out.print("Selamat! Mahasiswa ke-" + (i + 1) + " lulus. ");
+                }
+                else {
+                    System.out.print("Maaf. Mahasiswa ke-" + (i + 1) + " tidak lulus. ");
+                }
             }
 
         }

@@ -1,3 +1,5 @@
+package JobSheet_9;
+
 public class searchNilai20 {
     public static void main(String[] args) {
         int [] arrNilai = {80, 85, 78, 96, 90, 82, 86};

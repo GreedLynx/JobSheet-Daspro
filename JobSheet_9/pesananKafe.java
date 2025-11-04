@@ -1,4 +1,4 @@
-package JobSheet_9;
+//package JobSheet_9;
 
 import java.util.Scanner;   
 
@@ -6,20 +6,42 @@ public class pesananKafe {
     public static void main(String[] args) {
         try(Scanner input = new Scanner(System.in)) {
             // Deklarasi variabel
-            int jmlPesanan, totalBiaya = 0;
-            String[] menu = {"Espresso", "Cappuccino", "Latte", "Mocha", "Tea"};
-            double[] harga = {15000, 20000, 25000, 30000, 10000};
+            int jmlPesanan = 0, totalBiaya = 0;
+            String[] menu = {"Nasi Goreng", "Mie Goreng", "Roti Bakar", "Kentang Goreng", "Teh Tarik", "Cappuccino", "Coklat Ice"};
+            double[] harga = {15000, 12000, 20000, 30000, 12000, 8000, 15000};
             
             // Input jumlah pesanan
-            System.out.print("Masukkan jumlah pesanan: ");
-            jmlPesanan = input.nextInt();   
+            do {
+                System.out.print("Masukkan jumlah pesanan: ");
+                jmlPesanan = input.nextInt();
+                input.nextLine(); // Clear newline
+                if (input.hasNextInt()) {
+                    System.out.println("Jumlah pesanan harus lebih dari 0. Silakan coba lagi.");
+                    if (jmlPesanan > 0) {
+                        break;
+                    }else {
+                        System.out.println("Jumlah pesanan tidak valid.");
+                        input.nextLine(); // Clear invalid input
+                    } 
+                } else {
+                    System.out.println("Input tidak valid. Silakan masukkan angka.");
+                    input.nextLine(); // Clear invalid input
+                } 
+            }while (true);
+            
+            input.nextLine(); // Clear newline after integer input
+
             String[] pesanan = new String[jmlPesanan];
             int[] biayaPesanan = new int[jmlPesanan];
 
+            System.out.println("Menu Kafe:");
+            for (int i = 0; i < menu.length; i++) {
+                System.out.printf("%d. %s - Rp%.0f%n", (i + 1), menu[i], harga[i]);
+            }
             //input pesanan
             for (int i = 0; i < jmlPesanan; i++) {
-                System.out.print("Masukkan pesanan ke-" + (i + 1) + " (Espresso/Cappuccino/Latte/Mocha/Tea): ");
-                pesanan[i] = input.next();
+                System.out.print("Masukkan pesanan ke-" + (i + 1) + " :");
+                pesanan[i] = input.nextLine();
                 
                 // Mencari harga sesuai pesanan
                 boolean found = false;

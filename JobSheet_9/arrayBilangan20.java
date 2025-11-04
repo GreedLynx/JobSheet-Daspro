@@ -1,3 +1,5 @@
+package JobSheet_9;
+
 public class arrayBilangan20 {
     public static void main(String[] args) {
         int[] bilangan = new int[4];
@@ -7,10 +9,8 @@ public class arrayBilangan20 {
         bilangan[2] = -30;
         bilangan[3] = 40;
 
-        System.out.println(bilangan[0]);
-        System.out.println(bilangan[1]);
-        System.out.println(bilangan[2]);
-        System.out.println(bilangan[3]);
-
+        for (int i = 0; i < bilangan.length; i++) {
+            System.out.println("Bilangan pada indeks ke-" + i + " adalah: " + bilangan[i]);
+        }
     }
 }

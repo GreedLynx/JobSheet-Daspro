@@ -1,4 +1,4 @@
-public class kafe20 {
+public class kafe20Coba1 {
     public static void main(String[] args) {
         Menu();
     }

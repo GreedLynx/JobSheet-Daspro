@@ -1,6 +1,5 @@
-public class kafe20modif1 {
+public class kafe20Coba2 {
     public static void main(String[] args) {
-        
         Menu("Budi", true, "DISKON50");
     }
 

@@ -27,7 +27,7 @@ public class kafe20Coba3 {
         System.out.println("5. Nasi Goreng - Rp 15.000");
         System.out.println("6. Mie Ayam - Rp 15.000");
         System.out.println("0. Selesai dan bayar");
-        System.out.println("Silahkan pilih menu Anda: ");
+        System.out.println("Silahkan pilih menu Anda");
         System.out.println("==========================");
         
     }

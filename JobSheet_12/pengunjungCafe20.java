@@ -9,6 +9,8 @@ public class pengunjungCafe20 {
     }
 
     public static void main(String[] args) {
-        daftarPengunjung("Ali", "budi");
+        daftarPengunjung("Ali", "budi", "Citra");
+        daftarPengunjung("Andi");
+        daftarPengunjung("Doni", "Eti", "Fahmi", "Galih");
     }
 }

@@ -6,7 +6,9 @@ Program ini menggunakan Fungsi Rekursif (hitungLaba) untuk menghitung total nila
 ## ❓ Jawaban Pertanyaan
 1. Pada Percobaan3, sebutkan blok kode program manakah yang merupakan “base case” dan “recursion call”!
 Fungsi rekursif hitungLaba memiliki dua komponen penting untuk mengontrol pengulangan:
+
 | Komponen Rekursif | Blok Kode Program | Fungsi | 
+| :---: | :---: | :---: |
 | Base Case (Kasus Dasar) | if (tahun == 0) { return saldo; } | Menghentikan rekursi saat jangka waktu investasi (tahun) mencapai nol. Nilai yang dikembalikan adalah saldo di tahun tersebut (saldo awal). | 
 | Recursion Call (Panggilan Rekursi) | return (1.11 * hitungLaba(saldo, tahun-1)); | Mengulangi fungsi dengan parameter tahun yang dikurangi satu. Ini adalah reduction step yang membuat pemanggilan mendekati Base Case.| 
 

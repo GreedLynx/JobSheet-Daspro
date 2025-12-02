@@ -14,8 +14,8 @@ Fungsi rekursif hitungLaba memiliki dua komponen penting untuk mengontrol pengul
 Berikut adalah tracing (penelusuran) eksekusi fungsi hitungLaba dengan Saldo Awal = 100.000 dan Tahun = 3.
 **A. Fase Ekspansi (Menuju Base Case)**
 Fase ini adalah proses pemanggilan fungsi secara berulang dan menumpuk operasi perkalian yang tertunda. Berhenti saat tahun mencapai 0.
-| Pemanggilan Fungsi | Parameter (saldo, tahun) | Operasi yang Ditunda| 
-|:---:|:---:|:---:|
+| Pemanggilan Fungsi | Parameter (saldo, tahun) | Operasi yang Ditunda | 
+| :---: | :---: | :---: |
 | 1. hitungLaba(100000, 3) | (100000, 3) | 1.11 * hitungLaba(100000, 2) |
 | 2. hitungLaba(100000, 2) | (100000, 2) | 1.11 * hitungLaba(100000, 1) | 
 | 3. hitungLaba(100000, 1) | (100000, 1) | 1.11 * hitungLaba(100000, 0) | 
@@ -24,6 +24,7 @@ Fase ini adalah proses pemanggilan fungsi secara berulang dan menumpuk operasi p
 **B. Fase Substitusi (Menghitung Mundur)**
 Solusi dihitung secara terbalik mulai dari nilai Base Case (100000).
 | Langkah | Perhitungan | Hasil | 
+| :---: | :---: | :---: |
 | Sub 1 | 1.11 * 100000 (dari panggilan 3) | 111000.0 | 
 | Sub 2 | 1.11 * 111000.0 (dari panggilan 2) | 123210.0 | 
 | Sub 3 | 1.11 * 123210.0 (dari panggilan 1) | 136763.1 | 

@@ -15,7 +15,7 @@ Berikut adalah tracing (penelusuran) eksekusi fungsi hitungLaba dengan Saldo Awa
 **A. Fase Ekspansi (Menuju Base Case)**
 Fase ini adalah proses pemanggilan fungsi secara berulang dan menumpuk operasi perkalian yang tertunda. Berhenti saat tahun mencapai 0.
 | Pemanggilan Fungsi | Parameter (saldo, tahun) | Operasi yang Ditunda| 
-|:---|:---:|---:|
+|:---:|:---:|:---:|
 | 1. hitungLaba(100000, 3) | (100000, 3) | 1.11 * hitungLaba(100000, 2) |
 | 2. hitungLaba(100000, 2) | (100000, 2) | 1.11 * hitungLaba(100000, 1) | 
 | 3. hitungLaba(100000, 1) | (100000, 1) | 1.11 * hitungLaba(100000, 0) | 

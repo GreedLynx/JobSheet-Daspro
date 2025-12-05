@@ -4,6 +4,7 @@
 Program ini menghitung nilai faktorial dari sebuah bilangan (int angka = 5) menggunakan dua metode berbeda: Rekursif (faktorialRekursif) dan Iteratif (faktorialIteratif).
 
 | Fungsi | Struktur Kontrol | Konsep Kunci |
+| :---: | :---: | :---: |
 | faktorialRekursif |	IF-ELSE	| Mengulang dengan memanggil dirinya sendiri. |
 | faktorialIteratif	| FOR Loop	| Mengulang dengan struktur repetisi/pengulangan. |
 
@@ -18,6 +19,7 @@ Ya, hasilnya sama. Kedua fungsi dirancang untuk menghitung hasil matematika yang
 
 **B. Perbedaan Alur Jalan Program**
 | Fitur	| Fungsi Rekursif (faktorialRekursif) | Fungsi Iteratif (faktorialIteratif) |
+| :---: | :---: | :---: |
 | Mekanisme Pengulangan	| Menggunakan struktur seleksi (IF-ELSE) dan memanggil dirinya sendiri. | Menggunakan struktur repetisi/pengulangan (FOR atau WHILE). |
 | Fase Eksekusi	| Melalui dua fase: Ekspansi (pemanggilan bertingkat hingga Base Case) dan Substitusi (perhitungan mundur dari Base Case ke hasil akhir). | Hanya satu fase: Perintah dieksekusi secara berurutan dalam satu fungsi hingga kondisi loop salah. |
 | Kondisi Berhenti	| Berhenti saat Base Case (n == 0) terpenuhi. | Berhenti saat kondisi perulangan (i >= 1) bernilai FALSE. |

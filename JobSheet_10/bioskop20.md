@@ -16,6 +16,7 @@ Logika utama program adalah menggunakan atribut .length untuk mendapatkan ukuran
 
 4. Tambahkan kode program berikut... Jelaskan fungsi dari penonton.length dan penonton[0].length!
 | Atribut | Kode | Fungsi | Output(Contoh 4×2) |
+| :---: | :---: | :---: | :---: | 
 | Dimensi ke-1 | penonton.length | Menghasilkan jumlah baris (Outer dimension). | 4 | 
 | Dimensi ke-2 | penonton[0].length | Menghasilkan jumlah kolom (panjang array di baris ke-0). | 2 |
 Apakah penonton[0].length, penonton[1].length, dst., memiliki nilai yang sama? Mengapa?
@@ -83,6 +84,7 @@ for (int i = 0; i < penonton.length; i++) {
 
 10. Menurut Anda, apa kekurangan dan kelebihan foreach loop dibandingkan dengan for loop?
 | Fitur	| Foreach Loop | For Loop | 
+| :---: | :---: | :---: |
 | Kelebihan	| Lebih ringkas, mudah dibaca, dan aman dari ArrayIndexOutOfBoundsException. | Fleksibel: dapat melompati elemen, berjalan mundur, atau mengakses array secara parsial. |
 | Kekurangan | Tidak bisa mengakses indeks elemen. Tidak bisa mengubah (memodifikasi) nilai elemen di dalam array. | Membutuhkan inisialisasi, kondisi, dan step yang harus diatur dengan hati-hati untuk menghindari error. | 
 

@@ -4,6 +4,7 @@
 Program ini mendeklarasikan dan menginisialisasi sebuah array satu dimensi (bilangan) dengan tipe data int (bilangan bulat) dan ukuran 4. Program kemudian mengisi setiap elemen array secara terpisah dan mencetak isinya.
 
 | Baris Kode | Konsep | Keterangan |
+| :---: | :---: | :---: |
 | int[] bilangan = new int[4]; | Deklarasi Array | Membuat array bernama bilangan yang dapat menampung 4 nilai int. | 
 | bilangan[0] = 10; | Akses/Inisialisasi Elemen	| Mengisi elemen pada indeks ke-0 dengan nilai 10. |
 

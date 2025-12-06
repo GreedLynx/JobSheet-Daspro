@@ -2,7 +2,9 @@
 
 ## 📄 Analisis Kode Program Awal (searchNilai20.java)
 Program ini mengimplementasikan metode Pencarian Linier (Linear Search) untuk menemukan indeks elemen (key) dalam array arrNilai.
+
 | Baris Kode | Konsep | Keterangan |
+| :---: | :---: | :---: |
 | int [] arrNilai = {80, ... }; | Array 1D | Array yang dideklarasikan secara statis untuk menyimpan nilai yang akan dicari. |
 | for (int i = 0; i < arrNilai.length; i++) | Pencarian Linier | Perulangan ini secara sistematis memeriksa setiap elemen array mulai dari indeks 0 hingga akhir. |
 | if (arrNilai[i] == key) | Pemilihan | Kondisi yang dicari: apakah nilai elemen array saat ini sama dengan nilai kunci (key). |

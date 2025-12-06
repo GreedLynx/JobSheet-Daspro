@@ -2,7 +2,9 @@
 Analisis program Square20.java yang menggunakan perulangan luar (Outer Loop) dan perulangan dalam (Inner Loop) untuk mengontrol pencetakan baris dan kolom.
 
 ## 📄 Analisis Kode Dasar
+
 |Perulangan Luar (Outer) | for (int i = 1; i <= n; i++) | Mengontrol jumlah Baris yang akan dicetak (total N baris). | 
+| :---: | :---: | :---: | 
 | Perulangan Dalam (Inner) | for (int j = 1; j <= n; j++) | Mengontrol jumlah Kolom yang dicetak di setiap baris (total N bintang per baris). | 
 | Pencetak Baris Baru | System.out.println() | Memastikan setiap iterasi luar selesai dengan pindah ke baris baru. |
 
@@ -16,7 +18,9 @@ Analisis program Square20.java yang menggunakan perulangan luar (Outer Loop) dan
 * Mengapa: Perulangan dalam (j) mengontrol jumlah bintang per baris. Mengubah inisialisasi dari j=1 menjadi j=0 membuat iterasi berjalan sebanyak N+1 kali (dari 0 sampai N). Karena iterasi dalam dicetak ke samping, setiap baris bertambah satu bintang.
 
 3. Apakah perbedaan kegunaan antara perulangan luar dengan perulangan yang berada di dalamnya?
+
 | Perulangan | Kegunaan Utama | 
+| :---: | :---: |
 | Luar (Outer Loop) | Mengontrol Iterasi Utama dan Struktur Vertikal (Baris). Perulangan ini berjalan sekali untuk setiap baris, menentukan kapan alur pindah ke level berikutnya. |
 | Dalam (Inner Loop) | Mengontrol Detail Proses dan Struktur Horizontal (Kolom). Perulangan ini bertanggung jawab untuk mengeksekusi aksi berulang (seperti mencetak satu bintang) sebanyak $N$ kali untuk setiap satu iterasi perulangan luar. |
 

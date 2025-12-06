@@ -18,7 +18,9 @@ Program ini menggunakan Perulangan Bersarang (Nested Loop) untuk mengumpulkan 5 
 * Menambahkan struktur IF sederhana di akhir Outer Loop untuk membandingkan rataNilai saat ini dengan rataTertinggi yang tercatat.
 
 **🛠️ Perbandingan Kode Modifikasi (Fokus Perubahan)**
+
 | Kode SEBELUM Modifikasi (Asli) | Kode SETELAH Modifikasi (Penambahan Logika) |
+| :---: | :---: | 
 | java float totalNilai = 0, rataNilai;	| java float totalNilai, rataNilai; |
 | java for (i = 1; i <= 6; i++){ | java float rataTertinggi = 0; |
 | (totalNilai di luar)	| java int kelompokTertinggi = 0; |

@@ -8,7 +8,9 @@ Analisis program Triangle20.java yang bertujuan mencetak pola segitiga siku-siku
 * output yang dihasilkan dari modifikasi perulangan tersebut (yaitu, inisialisasi i=1 diubah menjadi i=0, dengan asumsi input $n=5$) adalah sebagai berikut:* * * * * *
 
 2. Jika tidak sesuai, bagian mana saja yang harus diperbaiki/ditambahkan? Jelaskan setiap bagian yang perlu diperbaiki/ditambahkan.Untuk membuat output sesuai dengan pola 5 baris bintang (1 hingga 5 bintang) ketika N=5, diperlukan dua perbaikan pada komponen perulangan:
+
 | Bagian | Kode Asli | Kode Diperbaiki | Penjelasan Perbaikan | 
+| :---: | :---: | :---: | :---: | 
 | Inisialisasi i | int i = 0;int i = 1; | Memulai dari 1. Inisialisasi harus dimulai dari 1 untuk menghindari Baris 1 (di mana i=0) yang mencetak 0 bintang (baris kosong). | 
 | Kondisi i | while (i <= n) | while (i <= n) | Tetap Sama. Kondisi i <= n sudah benar untuk memastikan perulangan berjalan N kali (misalnya, i=1 hingga i=5). | 
 

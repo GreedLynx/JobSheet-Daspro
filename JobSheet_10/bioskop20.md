@@ -83,6 +83,7 @@ for (int i = 0; i < penonton.length; i++) {
 ```
 
 10. Menurut Anda, apa kekurangan dan kelebihan foreach loop dibandingkan dengan for loop?
+
 | Fitur	| Foreach Loop | For Loop | 
 | :---: | :---: | :---: |
 | Kelebihan	| Lebih ringkas, mudah dibaca, dan aman dari ArrayIndexOutOfBoundsException. | Fleksibel: dapat melompati elemen, berjalan mundur, atau mengakses array secara parsial. |

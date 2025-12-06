@@ -15,10 +15,12 @@ Logika utama program adalah menggunakan atribut .length untuk mendapatkan ukuran
 
 
 4. Tambahkan kode program berikut... Jelaskan fungsi dari penonton.length dan penonton[0].length!
+
 | Atribut | Kode | Fungsi | Output(Contoh 4×2) |
 | :---: | :---: | :---: | :---: | 
 | Dimensi ke-1 | penonton.length | Menghasilkan jumlah baris (Outer dimension). | 4 | 
 | Dimensi ke-2 | penonton[0].length | Menghasilkan jumlah kolom (panjang array di baris ke-0). | 2 |
+
 Apakah penonton[0].length, penonton[1].length, dst., memiliki nilai yang sama? Mengapa?
 Ya, nilainya sama, yaitu 2.
 

@@ -37,7 +37,7 @@ public class sistemMagang {
 
         // Input data pendaftar
         System.out.print("Nama: "); // menyimpan nama pada kolom 0
-        dataPendaftar[jumlahPendaftar][0] = input.nextLine();
+        dataPendaftar[jumlahPendaftar][0] = input.nextLine(); 
         System.out.print("NIM: "); // menyimpan NIM pada kolom 1
         dataPendaftar[jumlahPendaftar][1] = input.nextLine();
         System.out.print("Program Studi: "); // menyimpan program studi pada kolom 2
@@ -79,14 +79,14 @@ public class sistemMagang {
 
         System.out.println("==== SELURUH DATA PENDAFTAR MAGANG ====");
         // Header Tabel menggunakan printf untuk perataan
-        System.out.printf("%-5s | %-20s | %-10s | %-30s | %-15s | %-5s | %-10s%n", header[0], header[1], header[2], header[3], header[4], header[5], header[6]);
+        System.out.printf("%-5s | %-20s | %-15s | %-30s | %-15s | %-5s | %-10s%n", header[0], header[1], header[2], header[3], header[4], header[5], header[6]);
 
         // Menampilkan data pendaftar menggunakan perulangan bersarang
         for (int i = 0; i < jumlahPendaftar; i++) {
             // Kolom 1 (Nomor Urut)
             System.out.printf("%-5d | ", i + 1);
             System.out.printf("%-20s | ", dataPendaftar[i][0]); // Nama (0)
-            System.out.printf("%-10s | ", dataPendaftar[i][1]); // NIM (1)
+            System.out.printf("%-15s | ", dataPendaftar[i][1]); // NIM (1)
             System.out.printf("%-30s | ", dataPendaftar[i][2]); // Prodi (2)
             System.out.printf("%-15s | ", dataPendaftar[i][3]); // Perusahaan (3)
             System.out.printf("%-5s | ", dataPendaftar[i][4]);  // Semester (4)
@@ -109,7 +109,7 @@ public class sistemMagang {
         // Flag untuk menandai apakah ada data yang ditemukan
         boolean ditemukan = false;
 
-        System.out.printf("%-5s | %-20s | %-10s | %-30s | %-15s | %-5s | %-10s%n", header[0], header[1], header[2], header[3], header[4], header[5], header[6]);
+        System.out.printf("%-5s | %-20s | %-15s | %-30s | %-15s | %-5s | %-10s%n", header[0], header[1], header[2], header[3], header[4], header[5], header[6]);
 
         for (int i = 0; i < jumlahPendaftar; i++) {
             //periksa kolom prodi (kolom ke-2)
@@ -117,7 +117,7 @@ public class sistemMagang {
                 ditemukan = true;
                 System.out.printf("%-5d | ", i + 1);
                 System.out.printf("%-20s | ", dataPendaftar[i][0]); // Nama (0)
-                System.out.printf("%-10s | ", dataPendaftar[i][1]); // NIM (1)
+                System.out.printf("%-15s | ", dataPendaftar[i][1]); // NIM (1)
                 System.out.printf("%-30s | ", dataPendaftar[i][2]); // Prodi (2)
                 System.out.printf("%-15s | ", dataPendaftar[i][3]); // Perusahaan (3)
                 System.out.printf("%-5s | ", dataPendaftar[i][4]);  // Semester (4)
